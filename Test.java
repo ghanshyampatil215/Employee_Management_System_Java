@@ -103,9 +103,7 @@ public class Test {
                 }
 
 
-                employees.add(
-                        new Employee(id, name, salary)
-                );
+                employees.add(new Employee(id, name, salary));
 
                 System.out.println(
                         "Employee added successfully."
